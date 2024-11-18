@@ -262,16 +262,11 @@ if(isset($_POST['lock'])){
 
                         <tr>
 
-<td width="25%" align="right" class="alt" style="font-size:14px"><strong> Type :</strong></td>
+                                <td colspan="2" align="center" class="alt"><strong></strong></td>
 
-<td width="29%"><span class="oe_form_group_cell">
-<select name="type" id="type" required="required">
-	<option></option>
-  <option value="1" <?=($type=='1')?'selected':''?>>All Convynace</option>
-  <option value="2" <?=($type=='2')?'selected':''?>> Only Sales </option>
-  </select>
+                                <td align="center">&nbsp;</td>
 
-  </span></td>
+                                <td>&nbsp;</td>
 
                               </tr>
 
@@ -313,13 +308,19 @@ if(isset($_POST['lock'])){
 
                             </tr>
 							  
-							  <tr>
+							                <tr>
+                              <tr>
 
-                                <td colspan="2" align="center" class="alt"><strong></strong></td>
+<td width="25%" align="right" class="alt" style="font-size:14px"><strong> Type :</strong></td>
 
-                                <td align="center">&nbsp;</td>
+<td width="29%"><span class="oe_form_group_cell">
+<select name="type" id="type" required="required">
+	<option></option>
+  <option value="1" <?=($type=='1')?'selected':''?>>All Convynace</option>
+  <option value="2" <?=($type=='2')?'selected':''?>> Only Sales </option>
+  </select>
 
-                                <td>&nbsp;</td>
+  </span></td>
 
                               </tr>
 							  
